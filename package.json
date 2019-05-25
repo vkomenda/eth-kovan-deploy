@@ -1,7 +1,25 @@
 {
+  "name": "eth-kovan-deploy",
+  "version": "0.0.1",
+  "description": "Deployment script for the Kovan testnet",
+  "scripts": {
+    "create-account": "node scripts/create-account.js",
+    "deploy": "node scripts/deploy.js",
+    "test": "node_modules/.bin/mocha --bail --timeout 300000",
+    "kill": "FIXME"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkomenda/eth-kovan-deploy.git"
+  },
   "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bn": "^0.1.1",
     "isomorphic-fetch": "^2.2.1",
     "isomorphic-form-data": "^1.0.0",
-    "web3": "^1.0.0-beta.29"
+    "mocha": "^6.0.2",
+    "solc": "0.5.2",
+    "web3": "1.0.0-beta.55"
   }
 }

@@ -1,4 +1,17 @@
-.private-key.txt
-.private-key2.txt
+# Emacs backups
+\#*#
+.#*
+*~
+
+# Vim backups
+.*.sw[po]
+
+# Patch files
+*.orig
+*.rej
+*.diff
+*.patch
+
+accounts
+build
 node_modules
-contract-address.txt

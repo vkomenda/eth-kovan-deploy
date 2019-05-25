@@ -1,3 +1,5 @@
+// FIXME: clean this up
+
 require('isomorphic-fetch')
 require('isomorphic-form-data')
 const Web3 = require('web3')
